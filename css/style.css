@@ -1259,9 +1259,665 @@ body{
 }
 
 /* ========================================
-   FUTURE SECTIONS
+   AUDIENCE
 ======================================== */
 
-/* FAQ */
+.audience-section{
 
-/* FINAL CTA */
+    background:#041321;
+
+    padding:170px 20px;
+
+    position:relative;
+}
+
+.audience-container{
+
+    max-width:1500px;
+
+    margin:0 auto;
+}
+
+.audience-intro{
+
+    text-align:center;
+
+    margin-bottom:100px;
+}
+
+.audience-intro h2{
+
+    font-size:88px;
+
+    line-height:1.05;
+
+    letter-spacing:-2px;
+
+    margin-bottom:42px;
+
+    text-shadow:0 4px 18px rgba(0,0,0,0.35);
+}
+
+.audience-intro p{
+
+    max-width:1100px;
+
+    margin:0 auto;
+
+    font-size:36px;
+
+    line-height:1.6;
+
+    color:rgba(255,255,255,0.88);
+}
+
+.audience-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:42px;
+
+    margin-bottom:90px;
+}
+
+.audience-card{
+
+    background:rgba(255,255,255,0.05);
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    border-radius:28px;
+
+    padding:56px 54px;
+
+    min-height:320px;
+
+    transition:0.3s;
+}
+
+.audience-card:hover{
+
+    border-color:rgba(126,195,255,0.34);
+
+    background:rgba(15,95,168,0.10);
+}
+
+.audience-title{
+
+    font-size:34px;
+
+    line-height:1.2;
+
+    font-weight:700;
+
+    margin-bottom:34px;
+
+    color:#7ec3ff;
+}
+
+.audience-description{
+
+    font-size:30px;
+
+    line-height:1.7;
+
+    color:rgba(255,255,255,0.9);
+}
+
+.audience-conclusion{
+
+    text-align:center;
+
+    max-width:1100px;
+
+    margin:0 auto;
+
+    font-size:36px;
+
+    line-height:1.6;
+
+    color:rgba(255,255,255,0.9);
+}
+
+/* ========================================
+   AUDIENCE RESPONSIVE
+======================================== */
+
+@media(max-width:1400px){
+
+    .audience-intro h2{
+
+        font-size:72px;
+    }
+
+    .audience-intro p{
+
+        font-size:30px;
+    }
+
+    .audience-title{
+
+        font-size:28px;
+    }
+
+    .audience-description{
+
+        font-size:24px;
+    }
+
+    .audience-conclusion{
+
+        font-size:30px;
+    }
+
+}
+
+@media(max-width:1200px){
+
+    .audience-intro h2{
+
+        font-size:58px;
+    }
+
+    .audience-intro p{
+
+        font-size:26px;
+    }
+
+    .audience-card{
+
+        min-height:auto;
+    }
+
+    .audience-title{
+
+        font-size:24px;
+    }
+
+    .audience-description{
+
+        font-size:22px;
+    }
+
+    .audience-conclusion{
+
+        font-size:26px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .audience-section{
+
+        padding:110px 22px;
+    }
+
+    .audience-intro{
+
+        margin-bottom:60px;
+    }
+
+    .audience-intro h2{
+
+        font-size:44px;
+
+        line-height:1.08;
+
+        letter-spacing:-1px;
+    }
+
+    .audience-intro p{
+
+        font-size:22px;
+
+        line-height:1.55;
+    }
+
+    .audience-grid{
+
+        grid-template-columns:1fr;
+
+        gap:26px;
+    }
+
+    .audience-card{
+
+        padding:38px 28px;
+    }
+
+    .audience-title{
+
+        font-size:24px;
+
+        margin-bottom:24px;
+    }
+
+    .audience-description{
+
+        font-size:20px;
+
+        line-height:1.6;
+    }
+
+    .audience-conclusion{
+
+        font-size:22px;
+
+        line-height:1.55;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .audience-intro h2{
+
+        font-size:38px;
+    }
+
+    .audience-intro p{
+
+        font-size:20px;
+    }
+
+    .audience-title{
+
+        font-size:22px;
+    }
+
+    .audience-description{
+
+        font-size:18px;
+    }
+
+    .audience-conclusion{
+
+        font-size:20px;
+    }
+
+}
+/* ========================================
+   FAQ
+======================================== */
+
+.faq-section{
+
+    background:#061b2d;
+
+    padding:170px 20px;
+
+    position:relative;
+}
+
+.faq-container{
+
+    max-width:1400px;
+
+    margin:0 auto;
+}
+
+.faq-intro{
+
+    text-align:center;
+
+    margin-bottom:90px;
+}
+
+.faq-intro h2{
+
+    font-size:82px;
+
+    line-height:1.05;
+
+    letter-spacing:-2px;
+
+    text-shadow:0 4px 18px rgba(0,0,0,0.35);
+}
+
+.faq-grid{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:26px;
+}
+
+.faq-item{
+
+    background:rgba(255,255,255,0.05);
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    border-radius:24px;
+
+    padding:38px 42px;
+}
+
+.faq-question{
+
+    font-size:32px;
+
+    line-height:1.4;
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+    color:#7ec3ff;
+}
+
+.faq-answer{
+
+    font-size:26px;
+
+    line-height:1.7;
+
+    color:rgba(255,255,255,0.88);
+}
+
+/* ========================================
+   FAQ RESPONSIVE
+======================================== */
+
+@media(max-width:1400px){
+
+    .faq-intro h2{
+
+        font-size:68px;
+    }
+
+    .faq-question{
+
+        font-size:28px;
+    }
+
+    .faq-answer{
+
+        font-size:22px;
+    }
+
+}
+
+@media(max-width:1200px){
+
+    .faq-intro h2{
+
+        font-size:56px;
+    }
+
+    .faq-question{
+
+        font-size:24px;
+    }
+
+    .faq-answer{
+
+        font-size:20px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .faq-section{
+
+        padding:110px 22px;
+    }
+
+    .faq-intro{
+
+        margin-bottom:60px;
+    }
+
+    .faq-intro h2{
+
+        font-size:44px;
+
+        line-height:1.08;
+
+        letter-spacing:-1px;
+    }
+
+    .faq-item{
+
+        padding:30px 26px;
+    }
+
+    .faq-question{
+
+        font-size:22px;
+
+        margin-bottom:14px;
+    }
+
+    .faq-answer{
+
+        font-size:18px;
+
+        line-height:1.6;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .faq-intro h2{
+
+        font-size:38px;
+    }
+
+    .faq-question{
+
+        font-size:20px;
+    }
+
+    .faq-answer{
+
+        font-size:17px;
+    }
+
+}
+/* ========================================
+   FINAL CTA
+======================================== */
+
+.final-cta{
+
+    background:#041321;
+
+    padding:190px 20px 220px 20px;
+
+    position:relative;
+
+    overflow:hidden;
+}
+
+.final-cta-container{
+
+    max-width:1200px;
+
+    margin:0 auto;
+}
+
+.final-cta-content{
+
+    text-align:center;
+}
+
+.final-cta-content h2{
+
+    font-size:92px;
+
+    line-height:1.04;
+
+    letter-spacing:-2px;
+
+    margin-bottom:42px;
+
+    text-shadow:0 4px 18px rgba(0,0,0,0.35);
+}
+
+.final-cta-content p{
+
+    max-width:980px;
+
+    margin:0 auto 58px auto;
+
+    font-size:34px;
+
+    line-height:1.65;
+
+    color:rgba(255,255,255,0.9);
+}
+
+.final-cta-button{
+
+    display:inline-block;
+
+    background:#0F5FA8;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:30px 70px;
+
+    border-radius:18px;
+
+    font-size:32px;
+
+    font-weight:700;
+
+    transition:0.3s;
+
+    box-shadow:0 8px 24px rgba(0,0,0,0.28);
+}
+
+.final-cta-button:hover{
+
+    background:#1475cf;
+}
+
+.final-cta-trust{
+
+    margin-top:34px;
+
+    font-size:22px;
+
+    color:rgba(255,255,255,0.7);
+}
+
+/* ========================================
+   FINAL CTA RESPONSIVE
+======================================== */
+
+@media(max-width:1400px){
+
+    .final-cta-content h2{
+
+        font-size:72px;
+    }
+
+    .final-cta-content p{
+
+        font-size:30px;
+    }
+
+    .final-cta-button{
+
+        font-size:28px;
+
+        padding:26px 60px;
+    }
+
+}
+
+@media(max-width:1200px){
+
+    .final-cta-content h2{
+
+        font-size:58px;
+    }
+
+    .final-cta-content p{
+
+        font-size:26px;
+    }
+
+    .final-cta-button{
+
+        font-size:24px;
+
+        padding:22px 52px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .final-cta{
+
+        padding:120px 22px 150px 22px;
+    }
+
+    .final-cta-content h2{
+
+        font-size:44px;
+
+        line-height:1.08;
+
+        letter-spacing:-1px;
+    }
+
+    .final-cta-content p{
+
+        font-size:22px;
+
+        line-height:1.6;
+    }
+
+    .final-cta-button{
+
+        width:100%;
+
+        max-width:420px;
+
+        font-size:22px;
+
+        padding:22px 26px;
+    }
+
+    .final-cta-trust{
+
+        font-size:18px;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .final-cta-content h2{
+
+        font-size:38px;
+    }
+
+    .final-cta-content p{
+
+        font-size:20px;
+    }
+
+    .final-cta-button{
+
+        font-size:20px;
+    }
+
+    .final-cta-trust{
+
+        font-size:16px;
+    }
+
+}
