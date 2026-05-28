@@ -1,0 +1,91 @@
+.app-page {
+
+  min-height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 30px;
+
+}
+
+.app-box {
+
+  width: 100%;
+
+  max-width: 700px;
+
+  background: #0C2438;
+
+  border-radius: 16px;
+
+  padding: 40px 30px;
+
+}
+
+.app-box h1 {
+
+  font-size: 38px;
+
+  margin-bottom: 20px;
+
+}
+
+.app-box p {
+
+  margin-bottom: 14px;
+
+}
+
+.prompt-box {
+
+  margin-top: 30px;
+
+  margin-bottom: 30px;
+
+}
+
+.prompt-title {
+
+  margin-bottom: 12px;
+
+  font-weight: bold;
+
+}
+
+#copy-prompt-button {
+
+  margin-top: 14px;
+
+  padding: 12px 18px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #0F5FA8;
+
+  color: #ffffff;
+
+  cursor: pointer;
+
+}
+
+.instruction-box {
+
+  margin-top: 30px;
+
+}
+
+.telegram-support {
+
+  display: inline-block;
+
+  margin-top: 30px;
+
+  color: #8DBEFF;
+
+}

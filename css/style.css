@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  background: #071A2B;
+
+  color: #ffffff;
+
+  line-height: 1.5;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+.cta-button,
+.stripe-button,
+.launch-button {
+
+  display: inline-block;
+
+  padding: 14px 24px;
+
+  border-radius: 10px;
+
+  background: #0F5FA8;
+
+  color: #ffffff;
+
+  font-weight: bold;
+
+  transition: 0.2s ease;
+
+}
+
+.cta-button:hover,
+.stripe-button:hover,
+.launch-button:hover {
+
+  opacity: 0.9;
+
+}
+
+textarea {
+
+  width: 100%;
+
+  min-height: 140px;
+
+  resize: vertical;
+
+  border-radius: 10px;
+
+  padding: 14px;
+
+  border: none;
+
+  outline: none;
+
+  font-size: 15px;
+
+}
+.language-switcher {
+
+  position: fixed;
+
+  top: 20px;
+
+  right: 20px;
+
+  z-index: 1000;
+
+  display: flex;
+
+  gap: 8px;
+
+}
+
+.language-switcher button {
+
+  background: rgba(255,255,255,0.08);
+
+  color: white;
+
+  border: 1px solid rgba(255,255,255,0.2);
+
+  padding: 6px 10px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-size: 12px;
+
+}
+
+.language-switcher button:hover {
+
+  background: rgba(255,255,255,0.16);
+
+}
