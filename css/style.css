@@ -1,116 +1,126 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-body {
-
-  font-family: Arial, sans-serif;
-
-  background: #071A2B;
-
-  color: #ffffff;
-
-  line-height: 1.5;
-
+body{
+    font-family:Arial,sans-serif;
+    background:#021526;
+    color:white;
 }
 
-a {
-  text-decoration: none;
+.hero{
+    position:relative;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    text-align:center;
+    padding:40px 20px;
 }
 
-main {
-  width: 100%;
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+
+    background-image:url("../assets/hero/hero-desktop.png");
+    background-size:cover;
+    background-position:center;
+
+    z-index:1;
 }
 
-section {
-  width: 100%;
+.hero-overlay{
+    position:absolute;
+    inset:0;
+
+    background:rgba(0,0,0,0.45);
+
+    z-index:2;
 }
 
-.cta-button,
-.stripe-button,
-.launch-button {
-
-  display: inline-block;
-
-  padding: 14px 24px;
-
-  border-radius: 10px;
-
-  background: #0F5FA8;
-
-  color: #ffffff;
-
-  font-weight: bold;
-
-  transition: 0.2s ease;
-
+.hero-content{
+    position:relative;
+    z-index:3;
+    max-width:760px;
 }
 
-.cta-button:hover,
-.stripe-button:hover,
-.launch-button:hover {
-
-  opacity: 0.9;
-
+.hero-logo{
+    width:120px;
+    margin-bottom:28px;
 }
 
-textarea {
-
-  width: 100%;
-
-  min-height: 140px;
-
-  resize: vertical;
-
-  border-radius: 10px;
-
-  padding: 14px;
-
-  border: none;
-
-  outline: none;
-
-  font-size: 15px;
-
-}
-.language-switcher {
-
-  position: fixed;
-
-  top: 20px;
-
-  right: 20px;
-
-  z-index: 1000;
-
-  display: flex;
-
-  gap: 8px;
-
+.hero h1{
+    font-size:56px;
+    line-height:1.1;
+    margin-bottom:24px;
+    font-weight:700;
 }
 
-.language-switcher button {
-
-  background: rgba(255,255,255,0.08);
-
-  color: white;
-
-  border: 1px solid rgba(255,255,255,0.2);
-
-  padding: 6px 10px;
-
-  border-radius: 8px;
-
-  cursor: pointer;
-
-  font-size: 12px;
-
+.hero p{
+    font-size:22px;
+    line-height:1.6;
+    margin-bottom:36px;
+    color:rgba(255,255,255,0.9);
 }
 
-.language-switcher button:hover {
+.hero-cta{
+    display:inline-block;
 
-  background: rgba(255,255,255,0.16);
+    background:#0F5FA8;
+    color:white;
+
+    padding:18px 34px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    font-size:18px;
+    font-weight:700;
+
+    transition:0.3s;
+}
+
+.hero-cta:hover{
+    background:#1475cf;
+}
+
+.hero-trust{
+    margin-top:24px;
+    font-size:15px;
+    color:rgba(255,255,255,0.7);
+}
+
+@media(max-width:768px){
+
+    .hero::before{
+        background-image:url("../assets/hero/hero-mobile.png");
+        background-position:center;
+    }
+
+    .hero{
+        padding:32px 18px;
+    }
+
+    .hero-logo{
+        width:95px;
+    }
+
+    .hero h1{
+        font-size:38px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    .hero-cta{
+        width:100%;
+        max-width:320px;
+    }
 
 }
