@@ -1,103 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
 
-  <title>Launch | Dive Writer Pro</title>
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+>
 
-  <meta name="description" content="Launch Dive Writer Pro." />
+<title>Dive Writer Pro · Launch</title>
 
-  <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="/css/app.css" />
+<link
+rel="stylesheet"
+href="../css/style.css"
+>
+
+<link
+rel="stylesheet"
+href="../css/app.css"
+>
 
 </head>
 
 <body>
 
-  <main class="app-page">
+<section class="app-section">
 
-    <section class="app-box">
+<div class="app-overlay"></div>
 
-      <h1 data-i18n="app_title">
-        Access Opened
-      </h1>
+<div class="app-container">
 
-      <p data-i18n="app_subtitle">
-        Your AI dive marketing assistant is ready.
-      </p>
+<div class="app-content">
 
-      <a
-        href="#"
-        class="launch-button"
-        id="launch-button"
-        target="_blank"
-      >
-        Open Dive Writer Pro
-      </a>
+<div class="app-label">
+DIVE WRITER PRO
+</div>
 
-      <div class="prompt-box">
+<h1>
+Your Access Is Ready
+</h1>
 
-        <p class="prompt-title" data-i18n="prompt_title">
-          Starter Prompt
-        </p>
+<p class="app-subtitle">
 
-        <textarea id="starter-prompt" readonly>
-Write an Instagram post for a dive center promoting a Red Sea liveaboard safari.
-        </textarea>
+Dive Writer Pro is now ready to use.
+Launch the assistant and start creating believable dive-industry content.
 
-        <button id="copy-prompt-button">
-          Copy Prompt
-        </button>
+</p>
 
-      </div>
+<a
+href="#"
+class="launch-button"
+id="launch-button"
+target="_blank"
+>
+Open Dive Writer Pro
+</a>
 
-      <div class="instruction-box">
+<div class="install-box">
 
-        <p data-i18n="instruction_1">
-          1. Open the AI assistant
-        </p>
+<div class="install-title">
+Install as App
+</div>
 
-        <p data-i18n="instruction_2">
-          2. Paste the starter prompt
-        </p>
+<p>
+Add Dive Writer Pro to your phone or desktop for faster everyday access.
+</p>
 
-        <p data-i18n="instruction_3">
-          3. Continue the dialogue naturally
-        </p>
+<button id="install-button">
 
-      </div>
+Add to Home Screen
 
-      <a
-        href="#"
-        class="telegram-support"
-        id="telegram-support"
-        target="_blank"
-      >
-        Telegram Support
-      </a>
+</button>
 
-    </section>
+</div>
 
-  </main>
+<div class="prompts-section">
 
-  <script src="/product.js"></script>
+<div class="prompts-title">
+Starter Prompts
+</div>
 
-  <script src="/lang/en.js"></script>
-  <script src="/lang/ru.js"></script>
-  <script src="/lang/de.js"></script>
-  <script src="/lang/lv.js"></script>
-  <script src="/lang/fr.js"></script>
-  <script src="/lang/it.js"></script>
-  <script src="/lang/pl.js"></script>
-  <script src="/lang/es.js"></script>
-  <script src="/lang/uk.js"></script>
+<div class="prompt-grid">
 
-  <script src="/js/detect.js"></script>
-  <script src="/js/lang.js"></script>
-  <script src="/js/copy.js"></script>
-  <script src="/js/pwa.js"></script>
+<button class="prompt-card">
+Instagram Post for a Dive Center
+</button>
+
+<button class="prompt-card">
+Red Sea Safari Description
+</button>
+
+<button class="prompt-card">
+SEO Article About Diving
+</button>
+
+<button class="prompt-card">
+Dive Course Promotion Post
+</button>
+
+</div>
+
+</div>
+
+<div class="app-instructions">
+
+<div class="instruction-item">
+1. Open Dive Writer Pro
+</div>
+
+<div class="instruction-item">
+2. Choose a starter prompt
+</div>
+
+<div class="instruction-item">
+3. Continue naturally inside the conversation
+</div>
+
+</div>
+
+<a
+href="#"
+class="support-link"
+id="telegram-support"
+target="_blank"
+>
+Telegram Support
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="../product.js"></script>
+
+<script>
+
+document
+.getElementById('launch-button')
+.href = PRODUCT.gpt;
+
+document
+.getElementById('telegram-support')
+.href = PRODUCT.telegram;
+
+</script>
+
+<script src="../js/pwa.js"></script>
 
 </body>
 </html>

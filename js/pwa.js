@@ -1,19 +1,36 @@
-if ('serviceWorker' in navigator) {
+let deferredPrompt;
 
-  window.addEventListener('load', () => {
+window.addEventListener('beforeinstallprompt', (e) => {
 
-    navigator.serviceWorker.register('/sw.js')
-      .then(() => {
+    e.preventDefault();
 
-        console.log('Service Worker registered');
+    deferredPrompt = e;
 
-      })
-      .catch((error) => {
+});
 
-        console.log('Service Worker error:', error);
+const installButton =
+document.getElementById('install-button');
 
-      });
+if(installButton){
 
-  });
+    installButton.addEventListener('click', async () => {
+
+        if(!deferredPrompt){
+
+            alert(
+                'Install option is currently unavailable on this device.'
+            );
+
+            return;
+        }
+
+        deferredPrompt.prompt();
+
+        const choice =
+        await deferredPrompt.userChoice;
+
+        deferredPrompt = null;
+
+    });
 
 }

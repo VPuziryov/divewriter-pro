@@ -1,91 +1,562 @@
-.app-page {
+.app-section{
 
-  min-height: 100vh;
+    position:relative;
 
-  display: flex;
+    min-height:100vh;
 
-  justify-content: center;
+    display:flex;
 
-  align-items: center;
+    align-items:center;
 
-  padding: 30px;
+    justify-content:center;
+
+    overflow:hidden;
+
+    padding:20px;
+
+    background:#041321;
+}
+
+.app-section::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.20),
+        rgba(0,0,0,0.72)
+    ),
+    url("../assets/hero/hero-desktop.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    opacity:0.42;
+
+    z-index:1;
+}
+
+.app-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    radial-gradient(
+        circle at center,
+        rgba(15,95,168,0.10),
+        rgba(2,21,38,0.94)
+    );
+
+    z-index:2;
+}
+
+.app-container{
+
+    position:relative;
+
+    z-index:3;
+
+    width:100%;
+
+    max-width:1480px;
+}
+
+.app-content{
+
+    background:rgba(4,19,33,0.80);
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    border-radius:40px;
+
+    padding:100px 110px;
+
+    text-align:center;
+
+    backdrop-filter:blur(14px);
+
+    box-shadow:
+    0 20px 80px rgba(0,0,0,0.34);
+}
+
+.app-label{
+
+    font-size:22px;
+
+    letter-spacing:7px;
+
+    font-weight:700;
+
+    color:rgba(255,255,255,0.54);
+
+    margin-bottom:24px;
+}
+
+.app-content h1{
+
+    font-size:132px;
+
+    line-height:0.94;
+
+    letter-spacing:-6px;
+
+    margin-bottom:32px;
+
+    text-shadow:
+    0 6px 24px rgba(0,0,0,0.38);
+}
+
+.app-subtitle{
+
+    max-width:980px;
+
+    margin:0 auto 46px auto;
+
+    font-size:36px;
+
+    line-height:1.6;
+
+    color:rgba(255,255,255,0.90);
+}
+
+.launch-button{
+
+    display:inline-block;
+
+    background:#0F5FA8;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:30px 64px;
+
+    border-radius:22px;
+
+    font-size:36px;
+
+    font-weight:700;
+
+    transition:0.3s;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.32);
+}
+
+.launch-button:hover{
+
+    background:#1475cf;
+}
+
+.install-box{
+
+    margin-top:70px;
+
+    padding:36px;
+
+    border-radius:28px;
+
+    background:rgba(255,255,255,0.05);
+
+    border:1px solid rgba(255,255,255,0.08);
+}
+
+.install-title{
+
+    font-size:34px;
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+    color:#7ec3ff;
+}
+
+.install-box p{
+
+    max-width:760px;
+
+    margin:0 auto 24px auto;
+
+    font-size:24px;
+
+    line-height:1.7;
+
+    color:rgba(255,255,255,0.84);
+}
+
+#install-button{
+
+    background:#0F5FA8;
+
+    color:white;
+
+    border:none;
+
+    border-radius:18px;
+
+    padding:20px 38px;
+
+    font-size:22px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+#install-button:hover{
+
+    background:#1475cf;
+}
+
+.prompts-section{
+
+    margin-top:70px;
+}
+
+.prompts-title{
+
+    font-size:40px;
+
+    font-weight:700;
+
+    margin-bottom:30px;
+
+    color:#7ec3ff;
+}
+
+.prompt-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:22px;
+}
+
+.prompt-card{
+
+    background:rgba(255,255,255,0.05);
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    font-size:26px;
+
+    line-height:1.5;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.prompt-card:hover{
+
+    background:rgba(15,95,168,0.14);
+
+    border-color:rgba(126,195,255,0.34);
+}
+
+.app-instructions{
+
+    margin-top:50px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+}
+
+.instruction-item{
+
+    font-size:22px;
+
+    line-height:1.5;
+
+    color:rgba(255,255,255,0.84);
+}
+
+.support-link{
+
+    display:inline-block;
+
+    margin-top:34px;
+
+    color:#8ecbff;
+
+    text-decoration:none;
+
+    font-size:22px;
+
+    transition:0.3s;
+}
+
+.support-link:hover{
+
+    color:white;
+}
+
+/* =========================
+   LARGE TABLET
+========================= */
+
+@media(max-width:1400px){
+
+    .app-container{
+
+        max-width:1240px;
+    }
+
+    .app-content{
+
+        padding:80px 70px;
+    }
+
+    .app-content h1{
+
+        font-size:108px;
+    }
+
+    .app-subtitle{
+
+        font-size:30px;
+    }
+
+    .launch-button{
+
+        font-size:30px;
+    }
+
+    .prompt-card{
+
+        font-size:22px;
+    }
 
 }
 
-.app-box {
+/* =========================
+   TABLET
+========================= */
 
-  width: 100%;
+@media(max-width:1024px){
 
-  max-width: 700px;
+    .app-content{
 
-  background: #0C2438;
+        padding:64px 42px;
+    }
 
-  border-radius: 16px;
+    .app-content h1{
 
-  padding: 40px 30px;
+        font-size:82px;
 
-}
+        letter-spacing:-4px;
+    }
 
-.app-box h1 {
+    .app-subtitle{
 
-  font-size: 38px;
+        font-size:24px;
+    }
 
-  margin-bottom: 20px;
+    .launch-button{
 
-}
+        font-size:26px;
 
-.app-box p {
+        padding:24px 38px;
+    }
 
-  margin-bottom: 14px;
+    .install-title{
 
-}
+        font-size:28px;
+    }
 
-.prompt-box {
+    .install-box p{
 
-  margin-top: 30px;
+        font-size:20px;
+    }
 
-  margin-bottom: 30px;
+    .prompts-title{
 
-}
+        font-size:34px;
+    }
 
-.prompt-title {
+    .prompt-card{
 
-  margin-bottom: 12px;
+        font-size:20px;
 
-  font-weight: bold;
+        padding:24px;
+    }
 
-}
+    .instruction-item{
 
-#copy-prompt-button {
-
-  margin-top: 14px;
-
-  padding: 12px 18px;
-
-  border: none;
-
-  border-radius: 10px;
-
-  background: #0F5FA8;
-
-  color: #ffffff;
-
-  cursor: pointer;
+        font-size:20px;
+    }
 
 }
 
-.instruction-box {
+/* =========================
+   MOBILE
+========================= */
 
-  margin-top: 30px;
+@media(max-width:768px){
+
+    .app-section{
+
+        padding:14px;
+    }
+
+    .app-content{
+
+        padding:42px 22px;
+
+        border-radius:28px;
+    }
+
+    .app-label{
+
+        font-size:12px;
+
+        letter-spacing:3px;
+
+        margin-bottom:18px;
+    }
+
+    .app-content h1{
+
+        font-size:52px;
+
+        line-height:1.02;
+
+        letter-spacing:-2px;
+
+        margin-bottom:22px;
+    }
+
+    .app-subtitle{
+
+        font-size:20px;
+
+        line-height:1.55;
+
+        margin-bottom:34px;
+    }
+
+    .launch-button{
+
+        width:100%;
+
+        font-size:24px;
+
+        padding:22px 24px;
+    }
+
+    .install-box{
+
+        margin-top:44px;
+
+        padding:24px 18px;
+    }
+
+    .install-title{
+
+        font-size:24px;
+    }
+
+    .install-box p{
+
+        font-size:17px;
+    }
+
+    #install-button{
+
+        width:100%;
+
+        font-size:18px;
+
+        padding:18px 20px;
+    }
+
+    .prompts-section{
+
+        margin-top:44px;
+    }
+
+    .prompts-title{
+
+        font-size:28px;
+
+        margin-bottom:22px;
+    }
+
+    .prompt-grid{
+
+        grid-template-columns:1fr;
+
+        gap:14px;
+    }
+
+    .prompt-card{
+
+        font-size:17px;
+
+        padding:22px;
+    }
+
+    .app-instructions{
+
+        margin-top:40px;
+
+        gap:12px;
+    }
+
+    .instruction-item{
+
+        font-size:17px;
+    }
+
+    .support-link{
+
+        margin-top:30px;
+
+        font-size:17px;
+    }
 
 }
 
-.telegram-support {
+/* =========================
+   SMALL MOBILE
+========================= */
 
-  display: inline-block;
+@media(max-width:480px){
 
-  margin-top: 30px;
+    .app-content h1{
 
-  color: #8DBEFF;
+        font-size:42px;
+    }
+
+    .app-subtitle{
+
+        font-size:18px;
+    }
+
+    .launch-button{
+
+        font-size:20px;
+    }
 
 }

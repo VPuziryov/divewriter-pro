@@ -1,41 +1,17 @@
 const PRODUCT = {
 
-  id: "divewriterpro",
+id: "divewriterpro",
 
-  name: "Dive Writer Pro",
+name: "Dive Writer Pro",
 
-  shortName: "DiveWriter",
+price: "19€",
 
-  domain: "divewriter.ecomile.pro",
+stripe: "",
 
-  price: "19€",
+usdtBot: "",
 
-  currency: "EUR",
+telegram: "https://t.me/puziryov_bot",
 
-  stripe: "",
-
-  usdtBot: "",
-
-  telegram: "",
-
-  gpt: "",
-
-  primaryColor: "#0B3558",
-
-  secondaryColor: "#0F5FA8",
-
-  supportedLanguages: [
-    "en",
-    "ru",
-    "de",
-    "lv",
-    "fr",
-    "it",
-    "pl",
-    "es",
-    "uk"
-  ],
-
-  defaultLanguage: "en"
+gpt: "https://chatgpt.com/g/g-lL5ZEgdrE-dive-writer-pro"
 
 };

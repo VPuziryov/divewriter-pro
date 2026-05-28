@@ -1,10 +1,12 @@
 {
   "name": "Dive Writer Pro",
   "short_name": "DiveWriter",
-  "start_url": "/",
+  "description": "AI copywriter built specifically for divers.",
+  "start_url": "/app/",
   "display": "standalone",
-  "background_color": "#0B3558",
-  "theme_color": "#0B3558",
+  "background_color": "#041321",
+  "theme_color": "#041321",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "/icons/icon-192.png",
