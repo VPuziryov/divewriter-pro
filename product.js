@@ -10,7 +10,7 @@ stripe: "",
 
 usdtBot: "",
 
-telegram: "https://t.me/puziryov_bot",
+telegram: "https://t.me/VPuziryov",
 
 gpt: "https://chatgpt.com/g/g-lL5ZEgdrE-dive-writer-pro"
 
