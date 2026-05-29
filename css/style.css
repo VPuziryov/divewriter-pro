@@ -169,7 +169,7 @@ body{
 
     text-align:center;
 
-    margin-bottom:70px;
+    margin-bottom:50px;
 }
 
 .section-label{
@@ -182,7 +182,7 @@ body{
 
     color:rgba(255,255,255,0.55);
 
-    margin-bottom:28px;
+    margin-bottom:14px;
 }
 
 .problem-intro h2{
@@ -193,7 +193,7 @@ body{
 
     letter-spacing:-2px;
 
-    margin-bottom:42px;
+    margin-bottom:21px;
 
     text-shadow:0 4px 18px rgba(0,0,0,0.35);
 }
@@ -219,7 +219,7 @@ body{
 
     gap:40px;
 
-    margin-bottom:70px;
+    margin-bottom:50px;
 }
 
 .problem-card{
@@ -239,7 +239,7 @@ body{
 
     font-weight:700;
 
-    margin-bottom:36px;
+    margin-bottom:15px;
 }
 
 .problem-card ul{
@@ -253,7 +253,7 @@ body{
 
     padding-left:38px;
 
-    margin-bottom:28px;
+    margin-bottom:14px;
 
     font-size:18px;
 
