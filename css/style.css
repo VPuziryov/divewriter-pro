@@ -713,7 +713,7 @@ body{
 
     border-radius:28px;
 
-    padding:56px 54px;
+     padding:40px 40px;
 
     min-height:620px;
 }
@@ -734,7 +734,7 @@ body{
 
 .comparison-label{
 
-    font-size:28px;
+    font-size:22px;
 
     letter-spacing:4px;
 
@@ -749,7 +749,7 @@ body{
 
     font-size:24px;
 
-    line-height:1.75;
+    line-height:1.45;
 
     margin-bottom:48px;
 
@@ -784,7 +784,7 @@ body{
 
     font-size:18px;
 
-    line-height:1.7;
+    line-height:1.5;
 
     font-weight:500;
 
