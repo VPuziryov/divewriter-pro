@@ -1046,7 +1046,7 @@ body{
 
     border-radius:28px;
 
-    padding:56px 42px;
+    padding:36px 36px;
 
     min-height:auto;
 
@@ -1062,26 +1062,25 @@ body{
 
 .feature-title{
 
-    font-size:34px;
+    font-size:28px;
 
     line-height:1.2;
 
     font-weight:700;
 
-    margin-bottom:34px;
+    margin-bottom:18px;
 
     color:#7ec3ff;
 }
 
 .feature-description{
 
-    font-size:14px;
+    font-size:18px;
 
-    line-height:1.6;
+    line-height:1.5;
 
     color:rgba(255,255,255,0.9);
 }
-
 .features-conclusion{
 
     text-align:center;
