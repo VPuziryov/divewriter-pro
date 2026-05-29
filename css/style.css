@@ -715,7 +715,7 @@ body{
 
      padding:36px 36px;
 
-    min-height:620px;
+    min-height:auto;
 }
 
 .before-card{
