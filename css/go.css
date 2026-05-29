@@ -71,7 +71,7 @@
 
     gap:14px;
 
-    margin-bottom:14px;
+    margin-bottom:28px;
 }
 
 .recap-item{
@@ -101,7 +101,7 @@
 
     gap:14px;
 
-    margin-bottom:24px;
+    margin-bottom:14px;
 }
 
 .access-item{
@@ -133,7 +133,7 @@
 
     line-height:1;
 
-    margin-bottom:18px;
+    margin-bottom:22px;
 
     text-shadow:
     0 4px 18px rgba(0,0,0,0.35);
