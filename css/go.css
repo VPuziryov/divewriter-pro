@@ -94,14 +94,13 @@
 }
 
 .go-access{
-
     display:grid;
-
     grid-template-columns:1fr 1fr 1fr;
-
     gap:14px;
 
-    margin-bottom:14px;
+    margin-top:34px;
+
+    margin-bottom:20px;
 }
 
 .access-item{
@@ -196,5 +195,19 @@
 
     font-size:16px;
 
-    color:rgba(255,255,255,0.52);
+    color:rgba(255,255,255,0.72);
+}
+.go-usdt-wrapper a{
+
+    color:#7ec3ff;
+
+    font-weight:700;
+
+    text-decoration:none;
+
+    border-bottom:1px solid rgba(126,195,255,0.35);
+
+    padding-bottom:2px;
+
+    transition:0.3s;
 }
