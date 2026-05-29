@@ -66,7 +66,9 @@
 
     width:100%;
 
-    max-width:1720px;
+    max-width:1000px;
+
+    margin:0 auto;
 }
 
 .go-content{
@@ -75,9 +77,9 @@
 
     border:1px solid rgba(255,255,255,0.08);
 
-    border-radius:42px;
+    border-radius:32px;
 
-    padding:120px 160px;
+    padding:80px 60px;
 
     text-align:center;
 
@@ -89,38 +91,38 @@
 
 .go-label{
 
-    font-size:22px;
+    font-size:18px;
 
-    letter-spacing:7px;
+    letter-spacing:5px;
 
     font-weight:700;
 
     color:rgba(255,255,255,0.58);
 
-    margin-bottom:28px;
+    margin-bottom:18px;
 }
 
 .go-content h1{
 
-    font-size:148px;
+    font-size:72px;
 
-    line-height:0.96;
+    line-height:1.08;
 
-    letter-spacing:-6px;
+    letter-spacing:-2px;
 
-    margin-bottom:34px;
+    margin-bottom:28px;
 
     text-shadow:
-    0 6px 24px rgba(0,0,0,0.38);
+    0 4px 18px rgba(0,0,0,0.35);
 }
 
 .go-subtitle{
 
-    max-width:1200px;
+    max-width:900px;
 
-    margin:0 auto 48px auto;
+    margin:0 auto 40px auto;
 
-    font-size:48px;
+    font-size:28px;
 
     line-height:1.5;
 
@@ -129,88 +131,78 @@
 
 .go-recap{
 
-    display:flex;
+    display:grid;
 
-    flex-wrap:wrap;
+    grid-template-columns:1fr 1fr;
 
-    justify-content:center;
+    gap:22px;
 
-    gap:20px;
-
-    margin-bottom:26px;
+    margin-bottom:22px;
 }
 
 .recap-item{
 
-    padding:26px 42px;
+    padding:24px 26px;
 
     border-radius:20px;
 
-    background:rgba(255,255,255,0.07);
+    background:rgba(255,255,255,0.05);
 
-    border:1px solid rgba(255,255,255,0.12);
+    border:1px solid rgba(255,255,255,0.08);
 
-    font-size:32px;
+    font-size:18px;
 
     font-weight:600;
 
+    line-height:1.5;
+
     color:rgba(255,255,255,0.94);
-
-    box-shadow:
-    0 4px 18px rgba(0,0,0,0.18);
-
-    backdrop-filter:blur(6px);
 }
 
 .go-access{
 
-    display:flex;
+    display:grid;
 
-    flex-wrap:wrap;
+    grid-template-columns:1fr 1fr;
 
-    justify-content:center;
+    gap:22px;
 
-    gap:20px;
-
-    margin-bottom:44px;
+    margin-bottom:40px;
 }
 
 .access-item{
 
-    padding:26px 42px;
+    padding:24px 26px;
 
     border-radius:20px;
 
-    background:rgba(15,95,168,0.18);
+    background:rgba(15,95,168,0.14);
 
-    border:1px solid rgba(126,195,255,0.32);
+    border:1px solid rgba(126,195,255,0.28);
 
-    font-size:32px;
+    font-size:18px;
 
     font-weight:600;
 
+    line-height:1.5;
+
     color:#d8ecff;
-
-    box-shadow:
-    0 4px 18px rgba(0,0,0,0.18);
-
-    backdrop-filter:blur(6px);
 }
 
 .go-price{
 
-    font-size:190px;
+    font-size:96px;
 
     font-weight:700;
 
-    letter-spacing:-8px;
+    letter-spacing:-4px;
 
     line-height:1;
 
-    margin-bottom:26px;
+    margin-bottom:28px;
 
     text-shadow:
-    0 6px 24px rgba(0,0,0,0.38);
+    0 4px 18px rgba(0,0,0,0.35);
 }
 
 .go-stripe-button{
@@ -219,7 +211,7 @@
 
     width:100%;
 
-    max-width:980px;
+    max-width:700px;
 
     margin:0 auto;
 
@@ -229,18 +221,18 @@
 
     text-decoration:none;
 
-    padding:40px 54px;
+    padding:26px 40px;
 
-    border-radius:24px;
+    border-radius:16px;
 
-    font-size:46px;
+    font-size:28px;
 
     font-weight:700;
 
     transition:0.3s;
 
     box-shadow:
-    0 10px 30px rgba(0,0,0,0.32);
+    0 8px 24px rgba(0,0,0,0.28);
 }
 
 .go-stripe-button:hover{
@@ -250,20 +242,18 @@
 
 .go-payment-note{
 
-    margin-top:20px;
+    margin-top:18px;
 
-    font-size:24px;
+    font-size:18px;
 
-    font-weight:500;
+    line-height:1.5;
 
-    line-height:1.7;
-
-    color:rgba(255,255,255,0.64);
+    color:rgba(255,255,255,0.65);
 }
 
 .go-usdt-wrapper{
 
-    margin-top:26px;
+    margin-top:20px;
 
     display:flex;
 
@@ -271,11 +261,11 @@
 
     justify-content:center;
 
-    gap:14px;
+    gap:10px;
 
     flex-wrap:wrap;
 
-    font-size:24px;
+    font-size:18px;
 
     color:rgba(255,255,255,0.52);
 }
@@ -284,7 +274,7 @@
 
     display:inline-block;
 
-    font-size:24px;
+    font-size:18px;
 
     font-weight:600;
 
@@ -304,85 +294,31 @@
    RESPONSIVE
 ======================================== */
 
-@media(max-width:1600px){
-
-    .go-content{
-
-        padding:100px 120px;
-    }
-
-    .go-content h1{
-
-        font-size:118px;
-    }
-
-    .go-subtitle{
-
-        font-size:40px;
-    }
-
-    .go-price{
-
-        font-size:160px;
-    }
-
-    .recap-item,
-    .access-item{
-
-        font-size:26px;
-    }
-
-    .go-stripe-button{
-
-        font-size:38px;
-    }
-
-}
-
 @media(max-width:1200px){
 
     .go-content{
 
-        padding:80px 60px;
+        padding:60px 40px;
     }
 
     .go-content h1{
 
-        font-size:82px;
-
-        letter-spacing:-4px;
+        font-size:60px;
     }
 
     .go-subtitle{
 
-        font-size:30px;
+        font-size:24px;
     }
 
     .go-price{
 
-        font-size:120px;
-    }
-
-    .recap-item,
-    .access-item{
-
-        font-size:22px;
-
-        padding:20px 28px;
+        font-size:84px;
     }
 
     .go-stripe-button{
 
-        font-size:30px;
-
-        padding:30px 34px;
-    }
-
-    .go-payment-note,
-    .go-usdt-wrapper,
-    .go-usdt-button{
-
-        font-size:20px;
+        font-size:24px;
     }
 
 }
@@ -410,11 +346,11 @@
 
     .go-content h1{
 
-        font-size:48px;
+        font-size:44px;
 
-        line-height:1.02;
+        line-height:1.05;
 
-        letter-spacing:-2px;
+        letter-spacing:-1px;
 
         margin-bottom:20px;
     }
@@ -431,33 +367,33 @@
     .go-recap,
     .go-access{
 
+        grid-template-columns:1fr;
+
         gap:10px;
     }
 
     .recap-item,
     .access-item{
 
-        width:100%;
-
         font-size:16px;
 
-        padding:16px 18px;
+        padding:18px;
     }
 
     .go-price{
 
-        font-size:72px;
+        font-size:64px;
 
         margin-bottom:22px;
     }
 
     .go-stripe-button{
 
+        max-width:100%;
+
         font-size:22px;
 
-        padding:22px 24px;
-
-        max-width:100%;
+        padding:22px;
     }
 
     .go-payment-note{
