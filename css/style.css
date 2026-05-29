@@ -66,19 +66,16 @@ body{
     position:relative;
     z-index:3;
 
-    width:800px !important;
-    max-width:800px !important;
+    max-width:1200px;
 
-    margin:180px auto 0 auto !important;
+    padding:0 10px;
 
-    padding:0 !important;
-
-    border:5px solid red !important;
+    margin-top:280px;
 }
 
 .hero h1{
 
-    font-size:60px !important;
+     font-size:108px;
     line-height:1.01;
 
     margin-bottom:38px;
