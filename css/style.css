@@ -160,7 +160,7 @@ body{
 
 .problem-container{
 
-    max-width:1500px;
+    max-width:900px;
 
     margin:0 auto;
 }
@@ -187,7 +187,7 @@ body{
 
 .problem-intro h2{
 
-    font-size:92px;
+    font-size:84px;
 
     line-height:1.04;
 
@@ -204,7 +204,7 @@ body{
 
     margin:0 auto;
 
-    font-size:38px;
+    font-size:30px;
 
     line-height:1.6;
 
