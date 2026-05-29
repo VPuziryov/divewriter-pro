@@ -1737,7 +1737,7 @@ body{
 
     background:#041321;
 
-    padding:190px 20px 220px 20px;
+    padding:140px 20px 160px 20px;
 
     position:relative;
 
@@ -1746,7 +1746,7 @@ body{
 
 .final-cta-container{
 
-    max-width:1200px;
+    max-width:1000px;
 
     margin:0 auto;
 }
@@ -1758,26 +1758,26 @@ body{
 
 .final-cta-content h2{
 
-    font-size:92px;
+    font-size:72px;
 
-    line-height:1.04;
+    line-height:1.08;
 
     letter-spacing:-2px;
 
-    margin-bottom:42px;
+    margin-bottom:32px;
 
     text-shadow:0 4px 18px rgba(0,0,0,0.35);
 }
 
 .final-cta-content p{
 
-    max-width:980px;
+    max-width:1000px;
 
-    margin:0 auto 58px auto;
+    margin:0 auto 50px auto;
 
-    font-size:34px;
+    font-size:28px;
 
-    line-height:1.65;
+    line-height:1.5;
 
     color:rgba(255,255,255,0.9);
 }
@@ -1792,13 +1792,15 @@ body{
 
     text-decoration:none;
 
-    padding:30px 70px;
+    padding:30px 68px;
 
-    border-radius:18px;
+    border-radius:16px;
 
     font-size:32px;
 
     font-weight:700;
+
+    letter-spacing:-0.5px;
 
     transition:0.3s;
 
@@ -1812,11 +1814,13 @@ body{
 
 .final-cta-trust{
 
-    margin-top:34px;
+    margin-top:28px;
 
-    font-size:22px;
+    font-size:20px;
 
-    color:rgba(255,255,255,0.7);
+    line-height:1.5;
+
+    color:rgba(255,255,255,0.72);
 }
 
 /* ========================================
