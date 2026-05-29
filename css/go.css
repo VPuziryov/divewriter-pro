@@ -132,6 +132,7 @@
 
     line-height:1;
 
+    margin-top:6px;
     margin-bottom:22px;
 
     text-shadow:
@@ -144,7 +145,7 @@
 
     width:100%;
 
-    max-width:620px;
+    max-width:720px;
 
     margin:0 auto;
 
@@ -208,6 +209,4 @@
     border-bottom:1px solid rgba(126,195,255,0.35);
 
     padding-bottom:2px;
-
-    transition:0.3s;
 }
