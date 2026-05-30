@@ -18,6 +18,9 @@ if (usdtButton) {
 
   usdtButton.href = PRODUCT.usdtBot;
 
+  usdtButton.target = '_blank';
+  usdtButton.rel = 'noopener noreferrer';
+
   usdtButton.addEventListener('click', () => {
 
     trackEvent('InitiateCheckout');
