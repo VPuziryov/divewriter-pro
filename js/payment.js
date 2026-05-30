@@ -4,6 +4,9 @@ if (stripeButton) {
 
   stripeButton.href = PRODUCT.stripe;
 
+  stripeButton.target = '_blank';
+  stripeButton.rel = 'noopener noreferrer';
+
   stripeButton.addEventListener('click', () => {
 
     trackEvent('InitiateCheckout');
