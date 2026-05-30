@@ -6,9 +6,9 @@ name: "Dive Writer Pro",
 
 price: "19€",
 
-stripe: "",
+stripe: "https://buy.stripe.com/4gMdR88m8cdxg8C8Sj6Na0e",
 
-usdtBot: "",
+usdtBot: "https://t.me/puziryov_bot?start=w55064693",
 
 telegram: "https://t.me/VPuziryov",
 
