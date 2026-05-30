@@ -12,6 +12,8 @@ usdtBot: "https://t.me/puziryov_bot?start=w55064693",
 
 telegram: "https://t.me/VPuziryov",
 
-gpt: "https://chatgpt.com/g/g-lL5ZEgdrE-dive-writer-pro"
+gpt: "https://chatgpt.com/g/g-lL5ZEgdrE-dive-writer-pro" ,
+
+metaPixel: "1403441134581587"
 
 };
